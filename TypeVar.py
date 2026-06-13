@@ -104,5 +104,5 @@ animals = []
 
 def safeTransfer(src, dst):
     for element in src:
-            dst.append(element)
+        dst.append(element)
 safeTransfer(dogs, animals)
